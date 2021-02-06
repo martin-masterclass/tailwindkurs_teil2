@@ -1,0 +1,22 @@
+{
+  "name": "Teil2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^2.0.0"
+  }
+}
