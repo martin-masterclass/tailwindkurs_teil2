@@ -1,4 +1,3 @@
-const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: [],
@@ -6,18 +5,6 @@ module.exports = {
   theme: {
     debugScreens: {
       position: ['top', 'left'],
-      },
-      colors: {
-        transparent: 'transparent',
-        current: 'currentColor',
-        white: colors.white,
-        black: colors.black,
-        blau: colors.blue,
-        gelb: colors.yellow,
-        grau: colors.blueGray,
-        tuerkis: colors.cyan,
-        gruen: colors.lime,
-        rot: colors.rose,
       },
   
     extend: {},
@@ -27,5 +14,8 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-debug-screens'),
+  ],
+  presets: [
+    require('./company_styles')
   ],
 }
