@@ -19,7 +19,6 @@ module.exports = {
         },    
   },  
   variants: {
-    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'focus'],
     extend: {
       width: ['hover'],
     },
