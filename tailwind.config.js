@@ -19,7 +19,10 @@ module.exports = {
         },    
   },  
   variants: {
-    extend: {},
+    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'focus'],
+    extend: {
+      width: ['hover'],
+    },
   },
   plugins: [
     require('tailwindcss-debug-screens'),
