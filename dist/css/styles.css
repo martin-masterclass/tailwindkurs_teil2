@@ -9355,18 +9355,6 @@ video {
   order: 0;
 }
 
-.float-right {
-  float: right;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-none {
-  float: none;
-}
-
 .clear-left {
   clear: left;
 }
@@ -36469,18 +36457,6 @@ video {
     order: 0;
   }
 
-  .sm\:float-right {
-    float: right;
-  }
-
-  .sm\:float-left {
-    float: left;
-  }
-
-  .sm\:float-none {
-    float: none;
-  }
-
   .sm\:clear-left {
     clear: left;
   }
@@ -63503,18 +63479,6 @@ video {
 
   .md\:order-none {
     order: 0;
-  }
-
-  .md\:float-right {
-    float: right;
-  }
-
-  .md\:float-left {
-    float: left;
-  }
-
-  .md\:float-none {
-    float: none;
   }
 
   .md\:clear-left {
@@ -90541,18 +90505,6 @@ video {
     order: 0;
   }
 
-  .lg\:float-right {
-    float: right;
-  }
-
-  .lg\:float-left {
-    float: left;
-  }
-
-  .lg\:float-none {
-    float: none;
-  }
-
   .lg\:clear-left {
     clear: left;
   }
@@ -117577,18 +117529,6 @@ video {
     order: 0;
   }
 
-  .xl\:float-right {
-    float: right;
-  }
-
-  .xl\:float-left {
-    float: left;
-  }
-
-  .xl\:float-none {
-    float: none;
-  }
-
   .xl\:clear-left {
     clear: left;
   }
@@ -144611,18 +144551,6 @@ video {
 
   .\32xl\:order-none {
     order: 0;
-  }
-
-  .\32xl\:float-right {
-    float: right;
-  }
-
-  .\32xl\:float-left {
-    float: left;
-  }
-
-  .\32xl\:float-none {
-    float: none;
   }
 
   .\32xl\:clear-left {
