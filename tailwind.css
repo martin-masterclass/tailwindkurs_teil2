@@ -4,6 +4,9 @@
 
 @layer components {
     .container {
-        @apply mx-auto prose-rot computer:prose-rot prose-xl tablet:prose-lg computer:prose computer:max-w-min bg-grau-50 pb-16 px-4 py-4;
+        @apply mx-auto prose-rot computer:prose-rot prose-xl tablet:prose-lg computer:prose computer:max-w-min bg-gray-50 pb-16 px-4 py-4;
+    }
+    ol > li::before {
+        @apply text-gray-600 !important;
     }
 }

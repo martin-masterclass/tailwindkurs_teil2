@@ -6,7 +6,17 @@ module.exports = {
     debugScreens: {
       position: ['top', 'left'],
       },
-    extend: {},
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            'ul > li::before': {
+              backgroundColor: theme('colors.gray.600'),
+            }, 
+          },
+        },
+      }),
+    },
     container: {
       center: true,
           padding: {

@@ -18,12 +18,11 @@ module.exports = {
         black: colors.black,
         blau: colors.blue,
         gelb: colors.yellow,
-        grau: colors.blueGray,
+        gray: colors.blueGray,
         tuerkis: colors.cyan,
         gruen: colors.lime,
         rot: colors.rose,
-      },
-  
+      },  
     extend: {},
   },
   variants: {
